@@ -22,7 +22,7 @@
 		C302EAE4214092E3003AD9F0 /* PostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostController.swift; sourceTree = "<group>"; };
 		C302EAE6214099F7003AD9F0 /* PostTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewController.swift; sourceTree = "<group>"; };
 		C302EAE821409C0C003AD9F0 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
-		C37C3FEB21407E860004983D /* whyiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whyiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37C3FEB21407E860004983D /* whyiOSFailableInit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whyiOSFailableInit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C37C3FEE21407E860004983D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C37C3FF321407E860004983D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C37C3FF521407E8A0004983D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		C37C3FEC21407E860004983D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C37C3FEB21407E860004983D /* whyiOS.app */,
+				C37C3FEB21407E860004983D /* whyiOSFailableInit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,9 +116,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C37C3FEA21407E860004983D /* whyiOS */ = {
+		C37C3FEA21407E860004983D /* whyiOSFailableInit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C37C3FFD21407E8A0004983D /* Build configuration list for PBXNativeTarget "whyiOS" */;
+			buildConfigurationList = C37C3FFD21407E8A0004983D /* Build configuration list for PBXNativeTarget "whyiOSFailableInit" */;
 			buildPhases = (
 				C37C3FE721407E860004983D /* Sources */,
 				C37C3FE821407E860004983D /* Frameworks */,
@@ -128,9 +128,9 @@
 			);
 			dependencies = (
 			);
-			name = whyiOS;
+			name = whyiOSFailableInit;
 			productName = whyiOS;
-			productReference = C37C3FEB21407E860004983D /* whyiOS.app */;
+			productReference = C37C3FEB21407E860004983D /* whyiOSFailableInit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -148,7 +148,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C37C3FE621407E850004983D /* Build configuration list for PBXProject "whyiOS" */;
+			buildConfigurationList = C37C3FE621407E850004983D /* Build configuration list for PBXProject "whyiOSFailableInit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -161,7 +161,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C37C3FEA21407E860004983D /* whyiOS */,
+				C37C3FEA21407E860004983D /* whyiOSFailableInit */,
 			);
 		};
 /* End PBXProject section */
@@ -367,7 +367,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C37C3FE621407E850004983D /* Build configuration list for PBXProject "whyiOS" */ = {
+		C37C3FE621407E850004983D /* Build configuration list for PBXProject "whyiOSFailableInit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C37C3FFB21407E8A0004983D /* Debug */,
@@ -376,7 +376,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C37C3FFD21407E8A0004983D /* Build configuration list for PBXNativeTarget "whyiOS" */ = {
+		C37C3FFD21407E8A0004983D /* Build configuration list for PBXNativeTarget "whyiOSFailableInit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C37C3FFE21407E8A0004983D /* Debug */,
